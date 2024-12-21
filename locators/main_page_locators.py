@@ -9,4 +9,4 @@ class MainPageLocators:
     QUESTION_8 = By.XPATH, "//*[@id='accordion__heading-7']" #Вопрос 8
     BUTTON_ORDER_TOP = By.XPATH, "//button[@class='Button_Button__ra12g']" #Книпка заказать вверх страницы
     BUTTON_ORDER_CENTER = By.XPATH, "//button[contains(@class, 'Button_Button__ra12g Button')]"
-    BUTTON_COOKIE = By.XPATH, "//*[@class='rcc-confirm-button']" #Кнопка "Да все привыкли", cookie
+    BUTTON_COOKIE = By.XPATH, "//*[@id='rcc-confirm-button']" #Кнопка "Да все привыкли", cookie
